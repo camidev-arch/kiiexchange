@@ -1,0 +1,293 @@
+.cards {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.cards:hover {
+  background: rgb(9, 9, 121) !important;
+  background: linear-gradient(
+    40deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(15, 80, 207, 1) 100%
+  ) !important;
+  color: white;
+}
+.main-row-three {
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #f2f2f2 !important;
+  padding-top: 20px !important;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.menuItem {
+  font-size: 20px;
+  color: black;
+  transition: color 0.5;
+}
+
+.menuItem:hover {
+  color: #0f4dcc;
+}
+
+.row-center {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.wrap-cards {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.wrap-column {
+  width: 70% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.main-row-one {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-one {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.card-style {
+  border: 0px !important;
+  background-color: transparent !important;
+}
+
+.title-blue {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  color: #0f4dcc !important;
+}
+
+.title-black {
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  margin-top: 0 !important;
+}
+
+.p-one {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+.input-one {
+  border-radius: 20px !important;
+  width: 90% !important;
+  height: 45px !important;
+  background-color: #eaeaeb !important;
+}
+
+.btnRegistrarSix {
+  background: rgb(9, 9, 121) !important;
+  background: linear-gradient(
+    40deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(15, 80, 207, 1) 100%
+  ) !important;
+  height: 50px !important;
+  border-radius: 40px !important;
+  color: white !important;
+  width: 230px !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  margin: 10px !important;
+}
+
+.boton-one {
+  background: rgb(9, 9, 121) !important;
+  background: linear-gradient(
+    40deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(15, 80, 207, 1) 100%
+  ) !important;
+  width: 90% !important;
+  height: 45px !important;
+  border-radius: 20px !important;
+  color: white !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.main-row-two {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  height: 250px !important;
+  /* background-image: url('../assets/backgrounds/exchangeLOG.png') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0f2eb2 !important;
+  background-color: linear-gradient(
+    40deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(15, 80, 207, 1) 100%
+  ) !important;
+}
+
+.col-one-two {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.col-two-two {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.title-col-one-two {
+  text-align: center !important;
+  color: white !important;
+  font-size: 30px !important;
+}
+
+.title-col-two-two {
+  text-align: center !important;
+  color: white !important;
+  font-size: 20px !important;
+  opacity: 0.6;
+}
+
+.boton-col-two-two {
+  background-color: white !important;
+  width: 250px !important;
+  height: 45px !important;
+  border-radius: 20px !important;
+  background: rgb(9, 9, 121) !important;
+  background: linear-gradient(
+    40deg,
+    rgba(9, 9, 121, 1) 41%,
+    rgba(15, 80, 207, 1) 100%
+  ) !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+@media (min-width: 900px) {
+  .nav-bar {
+    display: flex !important ;
+  }
+
+  .content-nav {
+    display: flex;
+    justify-content: end;
+  }
+
+  .btn-menu {
+    visibility: collapse;
+  }
+
+  .login-nav {
+    display: inline-flex;
+    justify-content: end;
+  }
+
+  .btn-iniciar {
+    font-weight: bold !important;
+    border: none !important;
+  }
+
+  .btn-registrar {
+    background: rgb(9, 9, 121) !important;
+    background: linear-gradient(
+      40deg,
+      rgba(9, 9, 121, 1) 41%,
+      rgba(15, 80, 207, 1) 100%
+    ) !important;
+    border-radius: 18px !important;
+    color: white !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}
+@media (max-width: 890px) {
+  .nav-bar {
+    z-index: 1000;
+    background-color: #e6e6e6;
+    max-width: min-content;
+    border-radius: 20px;
+  }
+
+  .content-nav {
+    display: block;
+    justify-content: end;
+  }
+
+  .btn-menu {
+    visibility: visible;
+    border: 0px !important;
+    border-radius: 8px !important;
+    width: 60px;
+    padding: 0px !important;
+    height: 60px !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .login-nav {
+    display: block;
+    justify-content: end;
+  }
+
+  .btn-iniciar {
+    font-weight: bold !important;
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+  }
+  .btn-registrar {
+    font-weight: bold !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 20px !important;
+    height: 25px;
+  }
+  .main-row-one {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .main-row-two {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: 300px !important;
+    background-color: #0f4dcc !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .main-row-three {
+    background-color: #f2f2f2 !important;
+    padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
